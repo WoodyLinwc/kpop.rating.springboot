@@ -27,5 +27,7 @@ public class KpopControlloer {
     @GetMapping("/{imdbId}")
     public ResponseEntity<Optional<Kpop>> getSingleKpop(@PathVariable String imdbId) {
         return new ResponseEntity<Optional<Kpop>>(kpopService.singleKpop(imdbId), HttpStatus.OK);
-    }
+    
+}
+
 }
