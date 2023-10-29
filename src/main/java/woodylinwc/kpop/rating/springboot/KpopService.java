@@ -20,5 +20,6 @@ public class KpopService {
     // may return null
     public Optional<Kpop> singleKpop(String imdbId) {
         return kpopRepository.findKpopByImdbId(imdbId);
+        // return null;
     }
 }
