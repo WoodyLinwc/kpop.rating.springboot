@@ -12,7 +12,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Document(collection = "kpop")
-// getter and setter
+// getter and setter, Lombok
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
