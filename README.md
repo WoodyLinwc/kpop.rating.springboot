@@ -91,10 +91,19 @@ Date: Mon, 04 Dec 2023 04:23:58 GMT
 ...
 ```
 
-# Lauch the Project
+# Lauch and Test the Project
 1. Download both [kpop.rating.springboot](https://github.com/WoodyLinwc/kpop.rating.springboot) and [kpop.rating.react](https://github.com/WoodyLinwc/kpop.rating.react) 
 2. Type `mvn spring-boot:run` in the terminal to run the backend.
+![backend](./img/springbootrun.png)
 3. Go to kpop.rating.react, `cd kpop-rating-v1` and type `npm start` to run the frontend.
+![frontback](./img/reactrun.png)
+4. `npm start` will open up a new page in the browser.
+![react website](./img/react.png)
+5. Test the review functionality.
+![review](./img/review.png)
+6. After click the **Submit** button, the message will be stored in the MongoDB database.
+![database](./img/mongodb.png)
+
 
 
 
