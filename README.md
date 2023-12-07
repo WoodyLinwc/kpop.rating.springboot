@@ -1,15 +1,26 @@
 # Introduction
+This project integrates **Spring Boot**, **ReactJS**, and **MongoDB** to provide users with an engaging platform to rate and review their favorite K-Pop songs. This a combined project with [kpop.rating.react](https://github.com/WoodyLinwc/kpop.rating.react)(frontend). 
 
 # Technologies
 - ## JDK
     - We need to first download the [Java Development Kit](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
+
 - ## MongoDB
     - Set up a [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/lp/try4?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core-high-int_prosp-brand_gic-null_amers-us_ps-all_desktop_eng_lead&utm_term=mongodb%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=19609124046&adgroup=145188748043&cq_cmp=19609124046&gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8QVgxyJ6kKG9UQY1qu3UsfL7Z1XFC3B9KbAt7fOMLQ993Ztg5lHbfkaAtjSEALw_wcB) account and download MongoDB Compass.
-- ## Spring Initializr 
-    - [start.spring.io](start.spring.io)
-    - Add dependencies, Lombok, Spring Web, DevTools, and Spring Data Reactive MongoDB.
+    - MongoDB is a popular open-source NoSQL database that provides high performance, high availability, and easy scalability.
 
-# Launch the Project
+- ## Spring Initializr 
+    - [start.spring.io](https://start.spring.io). It is a web-based tool that simplifies the process of bootstrapping a new Spring Boot project.
+    - Add dependencies, Lombok, Spring Web, DevTools, and Spring Data Reactive MongoDB for this project.
+    - Choose **Maven** for automation and project management tool.
+
+- ## Node.js
+    - [Latest version](https://nodejs.org/en/download/current)
+    - Node.js is a runtime environment that allows you to execute JavaScript code outside of a web browser.
+    - **npm** is the default package manager for Node.js.
+    - **npx** is a package runner tool that comes with npm (npm version 5.2.0 and higher). It allows you to execute npm package binaries directly without having to install them globally or locally.
+
+# Launch Spring Boot with Maven
 - Type `mvn spring-boot:run` in the terminal.
 - Reload Maven `mvn clean install`
 - Go to [localhost:8080](localhost:8080)
@@ -79,6 +90,11 @@ Transfer-Encoding: chunked
 Date: Mon, 04 Dec 2023 04:23:58 GMT
 ...
 ```
+
+# Lauch the Project
+1. Download both [kpop.rating.springboot](https://github.com/WoodyLinwc/kpop.rating.springboot) and [kpop.rating.react](https://github.com/WoodyLinwc/kpop.rating.react) 
+2. Type `mvn spring-boot:run` in the terminal to run the backend.
+3. Go to kpop.rating.react, `cd kpop-rating-v1` and type `npm start` to run the frontend.
 
 
 
