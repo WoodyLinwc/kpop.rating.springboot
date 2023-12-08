@@ -82,7 +82,7 @@ spring.data.mongodb.uri=mongodb+srv://${env.MONGO_USER}:${env.MONGO_PASSWORD}@${
 - The Service class contains the business logic of application.
 - The Repository class talks to the database and get the data back.
 - Any REST API should return proper status code
-- Test it in the terminal `curl -i http://localhost:8080/api/v1/kpop` and it should return the following information.
+- Test it in the terminal `curl -i http://localhost:8080/api/v1/kpops` and it should return the following information.
 ```
 HTTP/1.1 200 
 Content-Type: application/json
@@ -95,13 +95,15 @@ Date: Mon, 04 Dec 2023 04:23:58 GMT
 1. Download both [kpop.rating.springboot](https://github.com/WoodyLinwc/kpop.rating.springboot) and [kpop.rating.react](https://github.com/WoodyLinwc/kpop.rating.react) 
 2. Type `mvn spring-boot:run` in the terminal to run the backend.
 ![backend](./img/springbootrun.png)
-3. Go to kpop.rating.react, `cd kpop-rating-v1` and type `npm start` to run the frontend.
+3. Check the API availability, `localhost:8080/api/v1/kpops`.
+![API](./img/springboot.png)
+4. Go to kpop.rating.react, `cd kpop-rating-v1` and type `npm start` to run the frontend.
 ![frontback](./img/reactrun.png)
-4. `npm start` will open up a new page in the browser.
+5. `npm start` will open up a new page in the browser.
 ![react website](./img/react.png)
-5. Test the review functionality.
+6. Test the review functionality.
 ![review](./img/review.png)
-6. After click the **Submit** button, the message will be stored in the MongoDB database.
+7. After click the **Submit** button, the message will be stored in the MongoDB database.
 ![database](./img/mongodb.png)
 
 
