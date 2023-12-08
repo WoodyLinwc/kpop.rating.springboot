@@ -1,7 +1,7 @@
 # Introduction
-This project integrates **Spring Boot**, **ReactJS**, and **MongoDB** to provide users with an engaging platform to rate and review their favorite K-Pop songs. This a combined project with [kpop.rating.react](https://github.com/WoodyLinwc/kpop.rating.react)(frontend). 
+This project integrates **Spring Boot**, **ReactJS**, and **MongoDB** to provide users with an engaging platform to rate and review their favorite K-Pop songs. This a combined project with [kpop.rating.react](https://github.com/WoodyLinwc/kpop.rating.react)(frontend).
 
-# Technologies
+# Technologies and Tools
 - ## JDK
     - We need to first download the [Java Development Kit](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 
